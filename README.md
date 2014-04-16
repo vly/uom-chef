@@ -1,4 +1,4 @@
-uom-chef
+UoM ITS infrastructure recipes & scripts
 ========
 
-Chef repo for UoM chef recipes
+Scripts and recipes for provisioning of ITS prototype web services.

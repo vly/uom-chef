@@ -1,0 +1,13 @@
+[Unit]
+Description=API Nginx
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=always
+RestartSec=10s
+ExecStart=/bin/bash -c '/usr/bin/docker start -a 050a37ef31fd
+ExecStop=/usr/bin/docker stop -t 1 050a37ef31fd
+
+[Install]
+WantedBy=multi-user.target
